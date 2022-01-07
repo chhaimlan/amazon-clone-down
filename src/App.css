@@ -1,38 +1,230 @@
 .App {
-  text-align: center;
+  background-color: #fafafa;
+  height: 100vh;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app_post {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app_postrigh {
+  margin-left: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app_header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  object-fit: contain;
+  display: flex;
+  justify-content: space-between;
+}
+.app_Image {
+  object-fit: contain;
+  height: 40px;
+}
+.app_signup-pp {
   display: flex;
   flex-direction: column;
+}
+.head-bottom {
+  padding-left: 25%;
+  font-size: 20px;
+}
+.app_header_center {
+  display: flex;
+  height: 40px;
+  background-color: lightgray;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+}
+.app_header_center > .MuiSvgIcon-root {
+  height: 40px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.app_header_center > input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: lightgray;
+}
+.app_header_Icons {
+  display: flex;
+  align-items: center;
+}
+.app_header_Icons > .MuiSvgIcon-root {
+  padding: 10px;
+  font-size: 2rem;
+}
+.app_header_Icons > img {
+  padding: 10px;
+  width: 2rem;
+  height: 2rem;
 }
 
-.App-link {
-  color: #61dafb;
+.app_header_Icons > img:hover {
+  background-color: lightgray;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.app_header_Icons > .MuiSvgIcon-root:hover {
+  background-color: lightgray;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.app_story {
+  padding-bottom: 10px;
+  display: flex;
+  width: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 999px) {
+  .app_header {
+    max-width: 100px;
+    display: flex;
   }
-  to {
-    transform: rotate(360deg);
+  .app_header > img {
+    width: 100px;
+  }
+  .app_header_center {
+    display: flex;
+  }
+  .app_header_sign {
+    display: flex;
+    font-size: 12px;
+  }
+  .app_header_Icons > .MuiSvgIcon-root {
+    padding: 20px;
+    font-size: 2rem;
+  }
+  .app_header_Icons > img {
+    padding: 5px;
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+  .app_story {
+    max-width: 100px;
+    display: flex;
+  }
+}
+
+@media (max-width: 876px) {
+  .app_header {
+    max-width: 100px;
+    display: flex;
+  }
+  .app_header > img {
+    width: 100px;
+  }
+  .app_header_center {
+    display: flex;
+  }
+  .app_header_sign {
+    display: flex;
+    font-size: 12px;
+  }
+  .app_header_Icons > .MuiSvgIcon-root {
+    padding: 20px;
+    font-size: 2rem;
+  }
+  .app_header_Icons > img {
+    padding: 5px;
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+  .app_story {
+    max-width: 100px;
+    display: flex;
+  }
+}
+
+@media (max-width: 478px) {
+  .app_header {
+    max-width: 100px;
+    display: flex;
+  }
+  .app_header > img {
+    width: 100px;
+  }
+  .app_header_center {
+    display: flex;
+  }
+  .app_header_sign {
+    display: flex;
+    font-size: 12px;
+  }
+  .app_header_Icons > .MuiSvgIcon-root {
+    padding: 5px;
+    font-size: 1.8rem;
+  }
+  .app_header_Icons > img {
+    padding: 5px;
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+  .app_story {
+    display: flex;
+    width: 30px;
+  }
+}
+@media (max-width: 578px) {
+  .app_header {
+    max-width: 120px;
+    display: flex;
+  }
+  .app_header_sign {
+    display: flex;
+    font-size: 12px;
+  }
+  .app_header > img {
+    width: 100px;
+  }
+  .app_header_center {
+    display: flex;
+  }
+  .app_header_Icons > .MuiSvgIcon-root {
+    padding: 20px;
+    font-size: 2rem;
+  }
+  .app_header_Icons > img {
+    padding: 5px;
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+  .app_story {
+    display: flex;
+    width: 30px;
+  }
+}
+@media (max-width: 725px) {
+  .app_header {
+    max-width: 200px;
+    display: flex;
+  }
+  .app_header_sign {
+    display: flex;
+    font-size: 12px;
+  }
+  .app_header > img {
+    width: 100px;
+  }
+  .app_header_center {
+    display: flex;
+  }
+  .app_header_Icons > .MuiSvgIcon-root {
+    padding: 20px;
+    font-size: 2rem;
+  }
+  .app_header_Icons > img {
+    padding: 5px;
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+  .app_story {
+    display: flex;
+    width: 30px;
   }
 }

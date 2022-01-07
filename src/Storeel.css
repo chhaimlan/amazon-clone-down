@@ -1,0 +1,19 @@
+.storeel {
+  display: flex;
+  max-width: 515px;
+}
+@media (max-width: 478px) {
+  .storeel {
+    display: flex;
+  }
+}
+@media (max-width: 578px) {
+  .storeel {
+    display: flex;
+  }
+}
+@media (max-width: 678px) {
+  .storeel {
+    display: flex;
+  }
+}

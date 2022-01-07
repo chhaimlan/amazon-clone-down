@@ -1,0 +1,101 @@
+.rightbar {
+  flex-direction: column;
+  max-width: 350px;
+  border: 1px solid lightgray;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+.right_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.right_image {
+  display: flex;
+  align-items: center;
+}
+.right_image > img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.right_image > h3 {
+  padding-left: 10px;
+}
+.side_head {
+  display: block;
+}
+.side_head > p {
+  font-size: 13px;
+  color: lightgray;
+}
+.right_buttom > button {
+  text-align: center;
+  background-color: #008fba;
+  border: none;
+  color: white;
+  border: 2px solid #008cba;
+  border-radius: 5px;
+}
+.right_content {
+  padding-top: 20px;
+}
+.right_content > img {
+  object-fit: contain;
+  width: 350px;
+}
+.right_content > h5 {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
+}
+.right_content > p {
+  font-size: 15px;
+}
+.right_icon {
+  display: flex;
+  justify-content: space-between;
+}
+.icon_left {
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+.icon_left > .MuiSvgIcon-root {
+  padding-right: 10px;
+  font-size: 30px;
+  cursor: pointer;
+}
+.icon_right {
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+.icon_right > .MuiSvgIcon-root {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+@media (max-width: 478px) {
+  .rightbar {
+    max-width: 100px;
+  }
+  .right_content > img {
+    width: 100px;
+  }
+}
+@media (max-width: 578px) {
+  .rightbar {
+    max-width: 150px;
+  }
+  .right_content > img {
+    width: 150px;
+  }
+}
+@media (max-width: 678px) {
+  .rightbar {
+    max-width: 200px;
+  }
+  .right_content > img {
+    width: 200px;
+  }
+}
