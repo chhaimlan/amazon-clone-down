@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# The deploy website
+
+https://instagram-clone-514e1.web.app
+https://instagram-clone-514e1.firebaseapp.com/
+
 ## Available Scripts
 
 In the project directory, you can run:
